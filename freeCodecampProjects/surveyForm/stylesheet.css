@@ -1,0 +1,73 @@
+﻿h1, #description {
+    margin: 1em auto;
+    text-align: center;
+}
+
+#title {
+    font-family: sans-serif
+}
+
+#description {
+    margin-top: -30px;
+    margin-bottom: 50px
+}
+
+#name, #email, #number, #dropdown, #industry-trends, #needs-improvement {
+    margin-bottom: 13px
+}
+
+body {
+    background-image: url('https://image.freepik.com/free-vector/technology-futuristic-circuit-digital-background_77313-278.jpg');
+    color: ghostwhite
+}
+
+
+#name, #email, #number {
+    width: 5cm;
+    border: 1px solid white
+}
+
+#name-label, #email-label, #number-label {
+    font-size: 20px
+}
+
+#question {
+    font-size: 16px
+}
+
+#survey-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#submit {
+    margin-left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 13px;
+    border: 2px solid #cd853f;
+    border-radius: 5px;
+    background-color: burlywood;
+    width: 30%;
+    transition: background-color 0.3s ease;
+}
+    #submit:hover {
+        background-color: #8b4513;
+    }
+textarea {
+    width: calc(100% - 24px);
+    margin: 10px auto; 
+    padding: 12px;
+    border: 1px solid #cd853f;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 2px solid #cd853f;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}

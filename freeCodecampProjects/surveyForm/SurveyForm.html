@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="C:\Users\Cartide\Desktop\myProjects\freeCodecampProjects\surveyForm\stylesheet.css">
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title"> TechNews Survey Form</h1>
+        <p id="description"><em>We would like to know more on your tech interests</em></p>
+
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">
+                    Name(s):<br><input id="name" type="text" required placeholder="Name and Surname">
+                    </label><br>
+                <label id="email-label" for="email">
+                        Email:<br><input id="email" type="email" required placeholder="username@domain.com">
+                </label><br>
+                <label id="number-label" for="number">Number:<br><input id="number" type="text" min="0" max="9" required placeholder="0-9">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label id="question"></label>
+                    <b>How often do you visit tech news websites?</b><br>
+                    <select id="dropdown">
+                        <option value="">Select one</option>
+                        <option value="1">Very often( 2 times a day)</option>
+                        <option value="2">Fair(One time a day)</option>
+                        <option value="3">Not so often(Once in 2 days)</option>
+                    </select><br>
+
+                    <label id="question"><b> How satisfied are you with our service compared to your previous visits?</b></label>
+                    <br>
+                    <label for="impressed"><input id="impressed" type="radio" name="satisfaction" class="inline" value="0" />Impressed</label>
+                    <br>
+                    <label for="not-impressed"><input id="not-impressed" type="radio" name="satisfaction" class="inline" value="1" />Not impressed</label>
+                    <br>
+                    <label for="needs-improvement"><input id="needs-improvement" type="radio" name="satisfaction" class="inline" value="2" />Needs improvement</label><br>
+
+                    <label id="question"><b>What type of tech news are you most interested in?</b></label><br>
+                    <label for="impressed"><input id="impressed" type="checkbox" value="0" class="inline">Gadgets</label>
+                    <label for="industry-trends"><input id="industry-trends" type="checkbox" value="1" class="inline">Industry trends</label>
+                    <label for="software"><input id="software" type="checkbox" value="2" class="inline">Software</label>
+                    <label for="other"><input id="other" type="checkbox" value="2" class="inline">Other</label>
+            </fieldset>
+
+            <fieldset>
+                <textarea rows="5" cols="30" placeholder="Additional feedback"></textarea><br>
+                <button id="submit"> Submit </button>
+            </fieldset>
+        </form>
+    </body>
+    </html>
